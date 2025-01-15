@@ -1,5 +1,5 @@
 import { EmailValidator } from '../../validators/email/email.validator';
-import { Validate } from '../Validate/validate.decorator';
+import { Validate } from '../validate/validate.decorator';
 
 type argsEmailDecorator = {
   errorMsg?: string;

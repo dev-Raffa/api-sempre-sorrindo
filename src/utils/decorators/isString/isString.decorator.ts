@@ -1,4 +1,4 @@
-import { Validate } from '../Validate/validate.decorator';
+import { Validate } from '../validate/validate.decorator';
 import { StringValidator } from '../../validators/string/string.validator';
 import { stringValidatorArgs } from '../../types/stringValidtorArgs/stringValidatorArgs.type';
 
