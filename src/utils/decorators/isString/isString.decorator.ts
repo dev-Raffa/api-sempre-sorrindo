@@ -1,6 +1,6 @@
 import { Validate } from '../Validate/validate.decorator';
 import { StringValidator } from '../../validators/string/string.validator';
-import { stringValidatorArgs } from 'src/utils/types/stringValidtorArgs/stringValidatorArgs.type';
+import { stringValidatorArgs } from '../../types/stringValidtorArgs/stringValidatorArgs.type';
 
 interface isStringDecorator extends Pick<stringValidatorArgs, 'options'> {
   errorMsg: string;

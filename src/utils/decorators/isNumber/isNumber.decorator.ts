@@ -1,6 +1,6 @@
 import { Validate } from '../Validate/validate.decorator';
 import { NumberValidator } from '../../validators/number/number.validator';
-import { numberValidatorArgs } from 'src/utils/types/numberValidatorArgs/numberValidatorArgs.type';
+import { numberValidatorArgs } from '../../types/numberValidatorArgs/numberValidatorArgs.type';
 
 interface isNumberDecorator extends Pick<numberValidatorArgs, 'options'> {
   errorMsg: string;
