@@ -6,7 +6,7 @@ import { AppModule } from './app/app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
     cors: {
-      origin: ['http://localhost:3000'],
+      origin: ['http://localhost:3000', 'http://localhost:3001'],
       allowedHeaders: ['Content-Type', 'Accept', 'access-key'],
       methods: 'GET, HEAD, PUT, PATCH, POST, DELETE, OPTIONS',
       credentials: true,
@@ -14,6 +14,6 @@ async function bootstrap() {
       preflightContinue: false
     }
   });
-  await app.listen(3000);
+  await app.listen(3002);
 }
 bootstrap();
