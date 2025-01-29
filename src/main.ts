@@ -6,7 +6,7 @@ import { AppModule } from './app/app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
     cors: {
-      origin: ['http://localhost:3000', 'http://localhost:3001'],
+      origin: ['https://clinicassempresorrindo.com.br/', 'https://beta.clinicassempresorrindo.com.br/'],
       allowedHeaders: ['Content-Type', 'Accept', 'access-key'],
       methods: 'GET, HEAD, PUT, PATCH, POST, DELETE, OPTIONS',
       credentials: true,
