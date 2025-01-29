@@ -3,7 +3,7 @@ import { BlogController } from './controller/blog.controller';
 import { BlogService } from './service/blog.service';
 import { registerProviders } from '../../../utils/helpers/register-providers/register-providers.helper';
 import { BlogEntity } from './entity/blog.entity';
-import { DatabaseModule } from 'src/infra/database/database.module';
+import { DatabaseModule } from '../../../infra/database/database.module';
 
 @Module({
   imports: [DatabaseModule],
